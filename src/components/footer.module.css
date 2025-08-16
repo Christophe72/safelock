@@ -1,0 +1,66 @@
+/* 
+
+.footer :
+    - Style la section du pied de page de la page.
+    - Couleur de fond : Bleu semi-transparent (rgba(13, 71, 161, 0.9)).
+    - Couleur du texte : Blanc.
+    - Espacement intérieur (padding) : 1rem en haut et en bas.
+    - Largeur : 100% de la page.
+    - Alignement du texte : Centré.
+    - Positionné de manière fixe en bas de la fenêtre.
+    - Z-index : 100 pour s'assurer qu'il reste au-dessus des autres éléments.
+    - Ombre portée : Ombre subtile au-dessus du pied de page pour donner de la profondeur.
+
+.container :
+    - Définit un conteneur pour le contenu à l'intérieur du pied de page.
+    - Largeur maximale : 1200px.
+    - Centré horizontalement avec `margin: 0 auto`.
+    - Espacement intérieur horizontal : 1rem.
+
+.copyright :
+    - Marge inférieure : 0.5rem.
+    - Taille de la police : 0.9rem.
+
+.author :
+    - Taille de la police : 0.85rem.
+    - Marge supérieure : 0.5rem.
+
+.name :
+    - Poids de la police : Gras.
+    - Couleur : #81c8e9 (bleu clair).
+*/
+
+.footer {
+  background-color: rgba(13, 71, 161, 0.9);
+  color: white;
+  padding: 1rem 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.copyright {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.author {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.name {
+  font-weight: bold;
+  color: #81c8e9;
+}
