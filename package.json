@@ -1,6 +1,7 @@
 {
   "name": "safelock",
   "version": "0.1.0",
+  "description": "Application web pour la sélection de sections de câbles et de disjoncteurs électriques",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
